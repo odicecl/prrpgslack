@@ -54,6 +54,6 @@ exports.fnTirarDados = function(cadena){
     resultado += valor;
   }
 
-  resultado = 'Tirada de: '+cadena+'.  Resultado: '+resultado;
+  resultado = ' tiró : '+cadena+' y obtuvo: '+resultado;
   return resultado;
 }
